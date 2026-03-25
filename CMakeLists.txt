@@ -3,6 +3,7 @@ project(do C)
 
 set(CMAKE_C_STANDARD 99)
 set(ASAN "Enable address analyzer" OFF)
+add_compile_definitions(_GNU_SOURCE)
 
 if (ASAN)
     set(CMAKE_C_FLAGS "${CMAKE_C_FLAGS} -fsanitize=address \
