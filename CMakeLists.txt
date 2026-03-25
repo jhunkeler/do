@@ -15,7 +15,6 @@ if (ASAN)
     )
 
     add_link_options(-fsanitize=address)
-    add_link_options(-lubsan)
 endif()
 
 add_executable(do main.c
