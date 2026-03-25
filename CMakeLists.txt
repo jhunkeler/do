@@ -11,7 +11,6 @@ if (ASAN)
         -fsanitize-address-use-after-scope \
         -fno-omit-frame-pointer \
         -fno-inline \
-        -fsanitize=undefined \
         -g -O0"
     )
 
