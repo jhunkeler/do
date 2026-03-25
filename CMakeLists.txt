@@ -20,4 +20,9 @@ endif()
 
 add_executable(do main.c
         str.c
-        str.h)
+        str.h
+        targetlist.c
+        targetlist.h
+        common.h
+        target.c
+        target.h)
